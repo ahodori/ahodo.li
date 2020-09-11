@@ -38,3 +38,71 @@ a:visited {
 a:hover {
     text-decoration: underline;
 } 
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.leftcolumn { /* header img + linkz on homepage */
+    flex-basis: 30%;
+    flex-direction: column;
+    height: 100%;
+    margin: 3em;
+}
+
+.rightcolumn { /*CONTENT ZONE or image on homepage */
+    flex-basis: 50em;
+    flex-direction: column;
+}
+
+
+.headerlogo { /*pretty logo image at tomp left*/
+    height: 8vw;
+    width: 30em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ldescription p {
+    padding-left: 3em;
+    padding-right: 3em;
+    text-align: justify;
+    font-size: 24px;
+}
+
+.ldescription h3 {
+    text-align: center;
+}
+
+.outlinks {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center;
+    word-spacing: 15px;
+}
+
+.outlinks a:link {
+    color: #000011;
+}
+
+.outlinks a:visited {
+    color: #000011;
+}
+
+.imagezone {
+    justify-content: center;
+    text-align: center;
+    padding: 1em;
+}
+
+.archivelink {
+    text-align: center;
+    padding-bottom: 3em;
+}
