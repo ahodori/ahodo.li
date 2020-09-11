@@ -2,23 +2,12 @@
 layout: default
 ---
 <div class = "flex-container"> 
-   <div class = "leftcolumn"> <!-- lefthand info column-->
-       <div class = "headerlogo">
-            <h1> {{ page.title }} </h1>
-       </div>
-       <div class = "ldescription">
-            <p>{{ page.content | markdownify }}</p>
-       </div>
-       <div class = "outlinks">
-            <a href="https://twitter.com/sulkaritari"><i class="fab fa-twitter"></i></a>
-            <a href="https://github.com/ahodori"><i class="fab fa-github"></i></a>
-            <a href="https://soundcloud.com/sulkaritari"><i class="fab fa-soundcloud"></i></a>
-            <a href="https://sulkaritari.bandcamp.com/releases"><i class="fab fa-bandcamp"></i></a>
-       </div>
-   </div>
+
+   {% include leftcolumn.html %}
+
     <div class = "rightcolumn"> <!-- image or blogtent -->
         <div class = "imagezone">
-            <img src = "assets/images/FF_T4HoL_book2.png" width=100%/>
+            <img src = "assets/images/bgimg.png" width=100%/>
         </div>
         <div class = "archivelink"> 
             this zone will have a link to the most recent post?? havent decided yet

@@ -12,4 +12,4 @@ flowing English text.
 
 **This is me trying out markdown.**
 
-### Link to the blog archive would go right here
+### [Open Postdex](/navi.html)
